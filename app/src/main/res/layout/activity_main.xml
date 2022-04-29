@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:deviceIds="tv"
+    tools:ignore="MergeRootFrame">
+
+
+    <TextView
+        android:id="@+id/txtDateTime"
+        android:layout_width="249dp"
+        android:textAlignment="center"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:text="ВРЕМЯ" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:text="Изменить время" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="408dp"
+        android:layout_height="132dp"
+        android:text="Изменить дату"
+         />
+
+</FrameLayout>
